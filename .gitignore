@@ -1,0 +1,40 @@
+# Create comprehensive .gitignore
+echo # Dependencies (NEVER commit these)> .gitignore
+echo node_modules/>> .gitignore
+echo /node_modules/>> .gitignore
+echo */node_modules/>> .gitignore
+echo **/node_modules/>> .gitignore
+echo frontend/node_modules/>> .gitignore
+echo backend/node_modules/>> .gitignore
+echo.>> .gitignore
+echo # Environment files>> .gitignore
+echo .env>> .gitignore
+echo .env.*>> .gitignore
+echo frontend/.env>> .gitignore
+echo backend/.env>> .gitignore
+echo.>> .gitignore
+echo # Build outputs>> .gitignore
+echo build/>> .gitignore
+echo dist/>> .gitignore
+echo frontend/build/>> .gitignore
+echo.>> .gitignore
+echo # Database files>> .gitignore
+echo *.db>> .gitignore
+echo *.sqlite>> .gitignore
+echo.>> .gitignore
+echo # Logs>> .gitignore
+echo *.log>> .gitignore
+echo npm-debug.log*>> .gitignore
+echo.>> .gitignore
+echo # Python>> .gitignore
+echo __pycache__/>> .gitignore
+echo *.pyc>> .gitignore
+echo venv/>> .gitignore
+echo.>> .gitignore
+echo # IDE>> .gitignore
+echo .vscode/>> .gitignore
+echo .idea/>> .gitignore
+echo.>> .gitignore
+echo # OS>> .gitignore
+echo .DS_Store>> .gitignore
+echo Thumbs.db>> .gitignore
